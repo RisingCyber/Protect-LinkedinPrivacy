@@ -17,10 +17,9 @@
       [5] Register system-wide DNS-over-HTTPS via Cloudflare
 
 .NOTES
-    Author  : Community - based chunk.716 forensic analysis
+    Author  : Based on chunk.716 forensic analysis
     Version : 1.1.0
     Requires: Windows 10/11, PowerShell 5.1+, Administrator privileges
-    License : MIT
 
 #>
 
