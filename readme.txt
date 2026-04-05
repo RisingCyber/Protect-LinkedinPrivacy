@@ -21,8 +21,6 @@ powershell -ExecutionPolicy Bypass -File ./Protect-LinkedinPrivacy.ps1
 
 ##Manual Controls:
 
-Mitigation Measures:
-
 1-Use Firefox. 
 Firefox with “privacy.resistFingerprinting = true” spoofs canvas, audio, hardware concurrency, screen resolution, and timezone. 
 Breaking the core fingerprint which Chrome has no equivalent built-in.
@@ -34,7 +32,7 @@ Breaking the core fingerprint which Chrome has no equivalent built-in.
 ||li.protechts.net^
 
 3-Block WebRTC IP leaks
-In Firefox go to (about:config)
-and change
-(media.peerconnection.enabled) to false
-(dom.battery.enabled) to false
+In Firefox go to about:config
+change
+"media.peerconnection.enabled = false"
+"dom.battery.enabled = false"
