@@ -14,7 +14,6 @@
       [2] Harden Firefox via user.js in all profiles (WebRTC, fingerprinting, Battery API)
       [3] Apply Chrome enterprise registry policy (WebRTC, URLBlocklist, camera/mic)
       [4] Apply Edge enterprise registry policy (mirrors Chrome)
-      [5] Register system-wide DNS-over-HTTPS via Cloudflare
 
 .NOTES
     Author  : Based on chunk.716 forensic analysis
